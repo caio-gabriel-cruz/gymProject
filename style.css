@@ -46,6 +46,17 @@ html.mobile{
     transition: 0.5s;
 }
 
+@media (max-width: 768px){
+    .splash{
+        padding-top: 5rem;
+        justify-content: flex-start;
+    }
+
+    .splash p{
+        padding-top: 5rem;
+    }
+}
+
 .splash img{
     max-width: 15rem;
 }
@@ -60,7 +71,7 @@ html.mobile{
 
 .splash p{
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-family: "Montserrat", serif; 
     color: var(--white);
     margin-top: 2rem;

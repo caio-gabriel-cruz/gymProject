@@ -43,7 +43,7 @@ html.mobile{
     flex-direction: column;
     justify-content: center;
     opacity: 1;
-    transition: 3s;
+    transition: 0.5s;
 }
 
 .splash img{

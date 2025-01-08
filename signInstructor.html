@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="desktop login" lang="pt-Br">
+<html class="desktop sign" lang="pt-Br">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,29 +13,28 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="splash">
-      <img src="images/logoSplash.png" alt="" />
-      <span class="line"></span>
-      <p>Seu treino, sua evolucão, sempre no controle.</p>
-    </section>
     <main>
       <header>
         <p class="title">Bem vindo ao <span>Gym</span>Track</p>
       </header>
       <form action="">
-        <p class="subTitle">Fazer Login</p>
+        <p class="subTitle">Cadastrar Instrutor</p>
+        <label>Nome</label>
+        <input type="text" name="name" id="name" class="textBox" />
+        <label>Cpf</label>
+        <input type="number" name="cpf" id="cpf" class="textBox" />
         <label>E-mail</label>
         <input type="email" name="email" id="email" class="textBox" />
         <label>Senha</label>
         <input type="password" name="password" id="password" class="textBox" />
+        <label>Código(?)</label>
+        <input type="number" name="code" id="code" class="textBox" />
 
         <div class="buttons">
-          <button type="submit">Entrar</button>
-          <a href="#">Esqueci a Senha</a>
+          <button type="submit">Cadastrar</button>
         </div>
       </form>
       <img src="images/logo.png" alt="" />
     </main>
   </body>
-  <script src="script.js"></script>
 </html>
